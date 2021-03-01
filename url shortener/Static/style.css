@@ -1,0 +1,22 @@
+*{
+    margin:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: lightblue;
+    flex: 0.4;
+    display: grid;
+    place-items: center;
+}
+.body{
+    flex: 0.6;
+    display: grid;
+    place-items: center;
+}
